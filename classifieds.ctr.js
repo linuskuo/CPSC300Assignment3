@@ -1,10 +1,16 @@
 (function(){
-	
 	"use strict";
-	
 	angular
-		.module("Assignment3")
-		.controller("classifiedsCtrl", function(){
-			
-		})
+	.module("ngClassifieds")
+	.controller("classifiedsCtrl", function($scope){
+	
+		
+		$scope.classified={
+			title: "First Item",
+			price: "$200",
+			description: "BEST GAME EVER"
+		};
+		
+	});
+
 })();
